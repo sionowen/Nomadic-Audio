@@ -1,0 +1,70 @@
+.mynav{
+	background-color: #00bcd4;
+	height:90px;
+}
+.max-height{
+	height: 100%;
+	min-width: 540px;
+
+}
+.nav-item{
+	font-size: 127%;
+}
+.nav-guy > ul > .nav-bro:hover a { 
+    background-color: white;
+    color: black;
+}
+
+.small-logo{
+	padding: 0;
+	height: 100%;
+	float: left;
+}
+
+.nav-new > li > a{
+	line-height: 60px;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-bro > a{
+
+	display: block;
+	height: 90px;
+	line-height: 5;
+	text-decoration: none;
+	text-align: center;
+	font-size: 135%;
+	color: #541704;
+	min-width: 83px;
+
+}
+
+.nav-bro {
+	float: right;
+	width: 17%;
+}
+
+.home {
+
+}
+
+.main-logo {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
