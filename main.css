@@ -4,7 +4,7 @@
 }
 .max-height{
 	height: 100%;
-	min-width: 540px;
+	min-width: 480px;
 
 }
 .nav-item{
@@ -81,7 +81,7 @@ ul{
 
 .sub-header {
 	text-align: center;
-	font-weight: 200;
+	font-weight: 100;
 	font-size: 2.4vw;
 	margin-top: 1%;
 	margin-bottom: 3%;
@@ -95,9 +95,58 @@ ul{
 	margin-bottom: 6%;
 }
 
+.item{
+	font-size: 19vw;
+	margin-top: 8vw;
 
+}
+.headshot{
+	font-size: 19vw;
+	margin-top: 3vw;
+}
+.icon-item{
+	color: #00bcd4;
+}
+.icon-title {
+	color: #00bcd4;
+}
+.title {
+	font-size: 3vw;
+	font-weight: 200;
+	margin-top: -2.5vw;
+	margin-bottom: 2.5vw;
+}
 
+.align-center{
+	text-align: center;
+}
+.content{
+	width: 120%;
+	margin-left: -9%;
+	margin-bottom: 7vw;
+}
+.staff {
+	background-color: #00bcd4;
+}
+.crew {
+	font-size: 6.5vw;
+	color: white;
+	font-weight: 100;
+	margin-top: 7vw;
 
-
-
-
+}
+.white-text {
+	color: white;
+}
+.white-link {
+	color: white;
+}
+.white-link:hover {
+	color: white;
+}
+.action-text {
+	color: white;
+	margin-top: 7vw;
+	margin-bottom: 5vw;
+	font-weight: 100;
+}
