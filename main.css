@@ -1,4 +1,4 @@
-.mynav{
+.my-nav{
 	background-color: #00bcd4;
 	height:90px;
 }
@@ -7,20 +7,19 @@
 	min-width: 480px;
 
 }
-.nav-item{
-	font-size: 127%;
-}
-.nav-guy > ul > .nav-bro:hover a { 
+.nav-guy > ul > .nav-item:hover a { 
     background-color: white;
     color: black;
 }
 
-.small-logo{
+.small-logo {
 	padding: 0;
 	height: 100%;
 	float: left;
 }
-
+.contact-info {
+	margin-bottom: 8vw;
+}
 .nav-new > li > a{
 	line-height: 60px;
 }
@@ -31,20 +30,21 @@ ul{
 	padding: 0;
 }
 
-.nav-bro > a{
+.nav-item > a{
 
 	display: block;
 	height: 90px;
-	line-height: 5;
+	line-height: 4;
 	text-decoration: none;
 	text-align: center;
-	font-size: 135%;
-	color: #541704;
+	font-size: 155%;
+	color: white;
 	min-width: 83px;
+	font-weight: 100;
 
 }
 
-.nav-bro {
+.nav-item {
 	float: right;
 	width: 17%;
 }
@@ -121,8 +121,8 @@ ul{
 	text-align: center;
 }
 .content{
-	width: 120%;
-	margin-left: -9%;
+	width: 115%;
+	margin-left: -8%;
 	margin-bottom: 7vw;
 }
 .staff {
@@ -149,4 +149,7 @@ ul{
 	margin-top: 7vw;
 	margin-bottom: 5vw;
 	font-weight: 100;
+}
+.footer {
+	height: 7vw;
 }

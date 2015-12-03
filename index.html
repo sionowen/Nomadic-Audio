@@ -7,24 +7,24 @@
     <link rel="stylesheet" type="text/css" href="main.css">
   </head>
   <body>
-     <div class="mynav">
+     <div class="my-nav">
         <img class="small-logo" src="images/nomadic-audio-small.png">
         <span class="nav-guy max-height">
           <ul class="max-height">
-            <li class="nav-bro">
-              <a href="#">Home</a>
+            <li class="nav-item">
+              <a href="#home">Home</a>
             </li>
-            <li class="nav-bro">
-              <a href="#"> About Us</a>
+            <li class="nav-item">
+              <a href="#about"> About Us</a>
             </li>
 
-            <li class="nav-bro">
-              <a href="#">Contact</a>
+            <li class="nav-item">
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </span>
     </div>
-    <div class="container-fluid home">
+    <div id="home" class="container-fluid home">
     <!-- <img class="img-responsive" src="images/mixer.png"> -->
       <div class="row">
         <img class="col-xs-6 col-xs-offset-3 main-logo" src="images/nomadic-audio.png">
@@ -39,25 +39,25 @@
         <button class="btn button-primary meeting-button col-xs-2 col-xs-offset-5">Book a meeting</button>
       </div>
     </div>
-    <div class="container-fluid about">
+    <div id="about" class="container-fluid about">
       <div class="row">
         <div class="col-xs-3 col-xs-offset-1 align-center">
           <div class="item icon-item">
-            <span class="glyphicon glyphicon-time"></span>
+            <span class="glyphicon glyphicon-headphones"></span>
           </div>
           <h4 class="title icon-title">What We Do</h4>
           <p class="content">Nomadic Audio specializes in location-based recording and project mixing services for both commercial and musical work. Having worked both on-location and in professional studios, we pride ourselves in offering quality work within a variety of budgets, no matter the environment!</p>
         </div>
         <div class="col-xs-4 align-center">
           <div class="item icon-item">
-            <span class="glyphicon glyphicon-time"></span>
+            <span class="glyphicon glyphicon-user"></span>
           </div>
           <h4 class="title icon-title">Who We Are</h4>
           <p>Nomadic Audio is compromised of audio engineers Mack Scott and Joe McNeill. Collectively, we have a decade of professional experience in the industry. We are passionate about the quality of our work and have done everything from podcasts to musical audio production!</p>
         </div>
         <div class="col-xs-3 align-center">
           <div class="item icon-item">
-            <span class="glyphicon glyphicon-time"></span>
+            <span class="glyphicon glyphicon-home"></span>
           </div>
           <h4 class="title icon-title">Where We Are</h4>
           <p class="content">Based out of Minneapolis Minnesota, Nomadic Audio is available for audio services in most of Minnesota. Because of the mobile nature of one of our sets of equipment we are able to come and help you record at the location of your choosing! </p>
@@ -102,7 +102,7 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid home">
+    <div id="contact" class="container-fluid home">
       <div class="row">
         <div class="col-xs-6 col-xs-offset-3 align-center">
           <h1 class="crew">Book a Meeting</h1>
@@ -115,7 +115,8 @@
       </div>
     </div>
     <div class="container-fluid footer staff">
-      
+      <div class="row">
+      </div>
     </div>
   
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
