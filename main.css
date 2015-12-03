@@ -87,7 +87,32 @@ ul{
 	margin-bottom: 3%;
 	color: white;
 }
+.home-triangle {
 
+	width: 0;
+	height: 0;
+	border-left: 5vw solid white;
+	border-right: 5vw solid white;
+	border-top: 3vw solid transparent;
+	margin: 0 auto;
+}
+.white-triangle {
+	width: 0;
+	height: 0;
+	border-left: 5vw solid transparent;
+	border-right: 5vw solid transparent;
+	border-top: 3vw solid white;
+	margin: 0 auto;
+
+}
+.blue-triangle {
+		width: 0;
+	height: 0;
+	border-left: 5vw solid transparent;
+	border-right: 5vw solid transparent;
+	border-top: 3vw solid #00bcd4;
+	margin: 0 auto;
+}
 .meeting-button{
 	background-color: #00bcd4;
 	color: white;
@@ -132,7 +157,7 @@ ul{
 	font-size: 6.5vw;
 	color: white;
 	font-weight: 100;
-	margin-top: 7vw;
+	margin-top: 5vw;
 
 }
 .white-text {
