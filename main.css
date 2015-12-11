@@ -81,6 +81,11 @@ ul {
 	border-top: 3vw solid transparent;
 	margin: 0 auto;
 }
+.headshot-photo {
+	width: 100%;
+	margin-top: -10vw;
+}
+
 .white-triangle {
 	width: 0;
 	height: 0;
