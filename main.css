@@ -1,17 +1,15 @@
-.my-nav{
+.my-nav {
 	background-color: #00bcd4;
 	height:90px;
 }
-.max-height{
+.max-height {
 	height: 100%;
 	min-width: 480px;
-
 }
-.nav-guy > ul > .nav-item:hover a { 
+.nav-container > ul > .nav-item:hover a { 
     background-color: white;
     color: black;
 }
-
 .small-logo {
 	padding: 0;
 	height: 100%;
@@ -20,17 +18,12 @@
 .contact-info {
 	margin-bottom: 8vw;
 }
-.nav-new > li > a{
-	line-height: 60px;
-}
-
-ul{
+ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
-
-.nav-item > a{
+.nav-item > a {
 
 	display: block;
 	height: 90px;
@@ -41,15 +34,12 @@ ul{
 	color: white;
 	min-width: 83px;
 	font-weight: 100;
-
 }
-
 .nav-item {
 	float: right;
 	width: 17%;
 }
-
-.home {
+.mixer {
 	background: 
     linear-gradient(
       rgba(31, 47, 48, 0.75), 
@@ -57,19 +47,15 @@ ul{
     ),
 	url(images/mixer.png) no-repeat center center fixed;
 	filter: blur(5px);
-
-
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-
 .main-logo {
 	margin-top: 7%;
 	margin-bottom: 7%;
 }
-
 .header {
 	text-align: center;
 	color: #00bcd4;
@@ -78,7 +64,6 @@ ul{
 	margin-top: 0;
 	margin-bottom: 0;
 }
-
 .sub-header {
 	text-align: center;
 	font-weight: 100;
@@ -103,33 +88,30 @@ ul{
 	border-right: 5vw solid transparent;
 	border-top: 3vw solid white;
 	margin: 0 auto;
-
 }
 .blue-triangle {
-		width: 0;
+	width: 0;
 	height: 0;
 	border-left: 5vw solid transparent;
 	border-right: 5vw solid transparent;
 	border-top: 3vw solid #00bcd4;
 	margin: 0 auto;
 }
-.meeting-button{
+.meeting-button {
 	background-color: #00bcd4;
 	color: white;
 	font-size: 1.7vw;
 	margin-bottom: 6%;
 }
-
-.item{
+.item {
 	font-size: 19vw;
 	margin-top: 8vw;
-
 }
-.headshot{
+.headshot {
 	font-size: 19vw;
 	margin-top: 3vw;
 }
-.icon-item{
+.icon-item {
 	color: #00bcd4;
 }
 .icon-title {
@@ -141,11 +123,10 @@ ul{
 	margin-top: -2.5vw;
 	margin-bottom: 2.5vw;
 }
-
-.align-center{
+.align-center {
 	text-align: center;
 }
-.content{
+.content {
 	width: 115%;
 	margin-left: -8%;
 	margin-bottom: 7vw;
@@ -158,7 +139,6 @@ ul{
 	color: white;
 	font-weight: 100;
 	margin-top: 5vw;
-
 }
 .white-text {
 	color: white;
@@ -168,6 +148,9 @@ ul{
 }
 .white-link:hover {
 	color: white;
+}
+.no-underline:hover {
+	text-decoration: none;
 }
 .action-text {
 	color: white;
