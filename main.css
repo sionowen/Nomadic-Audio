@@ -39,19 +39,36 @@ ul {
 	float: right;
 	width: 17%;
 }
-.mixer {
+.mixer, .mixer-one {
 	background: 
     linear-gradient(
       rgba(31, 47, 48, 0.75), 
       rgba(31, 47, 48, 0.75)
     ),
 	url(images/mixer.png) no-repeat center center fixed;
-	filter: blur(5px);
+	overflow-y: scroll; 
 	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+@media only screen and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+	.mixer-one {
+		background: 
+    	linear-gradient(
+    	 rgba(31, 47, 48, 0.75), 
+     	 rgba(31, 47, 48, 0.75)
+   	 ),
+		url(images/mixer.png) no-repeat fixed;
+	  -webkit-background-size: 150%;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: 150%;
+	}
 }
+
 .main-logo {
 	margin-top: 7%;
 	margin-bottom: 7%;
